@@ -3,9 +3,11 @@ function submit(){
   var val2 = parseInt(document.getElementById("num2").value);
   var val3 = parseInt(document.getElementById("num3").value);
   var val4 = parseInt(document.getElementById("num4").value);
+  var val5 = parseInt(document.getElementById("num5").value);
+  var val6 = parseInt(document.getElementById("num6").value);
 
-  var final = val1 + val2 + val3 + val4;
-  document.getElementById("result").textContent = +final  + " / 400 ";
+  var final = val1 + val2 + val3 + val4 +val5 + val6;
+  document.getElementById("result").textContent = +final  + " / 600 ";
 }
 
 
@@ -15,9 +17,11 @@ function mean(){
   var val2 = parseInt(document.getElementById("num2").value);
   var val3 = parseInt(document.getElementById("num3").value);
   var val4 = parseInt(document.getElementById("num4").value);
+  var val5 = parseInt(document.getElementById("num5").value);
+  var val6 = parseInt(document.getElementById("num6").value);
 
-  var final1 = val1 + val2 + val3 + val4; 
-  total = final1 / 4;
+  var final1 = val1 + val2 + val3 + val4 +val5 + val6; 
+  total = final1 / 6;
   document.getElementById("average").textContent = +total;
 }
 
